@@ -1,0 +1,31 @@
+h3 {
+  text-align: center;
+  padding: 2px;
+  font-size: 32px;
+}
+
+p, li{
+  font-size: 25px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* html {
+  font-size: 25px; (px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut)
+  font-family: 'Open Sans', sans-serif; 
+} */
+
+p:hover{
+  color: #f0420dcb;
+  width: 100%;
+  border: 1px solid black;
+  background-color: beige;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
